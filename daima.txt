@@ -1,0 +1,16 @@
+					<tr>
+						<td>部门:</td>
+						<td>
+							<select>
+								<option>前端部</option>
+								<option>后端部</option>
+								<option>产品部</option>
+							</select>
+						</td>
+					</tr>
+
+		<div class="deparments">
+			<button>前端部</button>
+			<button>后端部</button>
+			<button>产品部</button>
+		</div>

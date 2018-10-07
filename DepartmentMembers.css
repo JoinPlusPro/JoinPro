@@ -1,0 +1,89 @@
+/*部门成员管理文字部分*/
+#registration_form_title{
+	width: 700px;
+	border-bottom: 1px solid;
+	padding: 20px 0 10px 20px;
+	margin-left: 10px; 
+	margin-bottom: 10px;
+}
+#registration_form_title span{
+	font-size: 20px;
+}
+/*主体部分*/
+.deparments button{
+	width: 80px;
+	height: 40px;
+	border: 1px solid #000000;
+	border-radius: 40px;
+	background-color: #000000;
+	color: #FFFFFF;
+	margin-left: 10px;
+}
+.content{
+	/*padding-left: 180px;*/
+	padding-top: 50px;
+}
+table{
+	border: 1px solid #000000;
+	text-align: center;
+	margin: 0 auto;
+}
+table th{
+	border:1px solid #000000;
+	width: 120px;
+	height: 100px;
+}
+table td{
+	border:1px solid #000000;
+}
+#photo{
+	width: 50px;
+	height: 50px;
+}
+table td:nth-child(8) img{
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+	transition: all 0.6s ease-in-out;
+	border: 0px;
+	opacity: 1;
+}
+table td:nth-child(8) img:hover{
+	transform: rotate(360deg);
+}
+.buttons span{
+	font-size: 20px;
+}
+input{
+	margin-right: 40px;
+}
+#file{
+	display: none;
+}
+#path{
+	height: 30px;
+	width: 218px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+#add,#submit,#view{
+	height: 40px;
+	width: 150px;
+	border-radius: 40px;
+	border: 1px solid #000000;
+	color: white;
+	background-color: black;
+	margin-right: 20px;	
+}
+#view{
+	margin-right: 0;
+}
+#add{
+	position: relative;
+	top: 40px;
+	left: 980px;
+}
+#sidebar ul li:nth-child(4) a{
+	background-color: rgb(78,84,101);
+}
